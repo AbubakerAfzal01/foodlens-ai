@@ -1,0 +1,7220 @@
+{
+  "ingredients": [
+    {
+      "names": [
+        "pork",
+        "bacon",
+        "ham",
+        "lard",
+        "pork fat",
+        "pig fat"
+      ],
+      "status": {
+        "halal": "not_ok",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "not_ok"
+      },
+      "note": "Contains pork. The Hindu-friendly profile in this app checks for beef only."
+    },
+    {
+      "names": [
+        "beef",
+        "beef fat",
+        "tallow",
+        "beef extract"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "not_ok",
+        "kosher": "doubtful"
+      },
+      "note": "Beef conflicts with the no-beef profile; Halal and Kosher status depends on sourcing and certification."
+    },
+    {
+      "names": [
+        "gelatin",
+        "gelatine"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Animal source is often not stated (pork, beef or fish).",
+      "ecodes": [
+        "E441"
+      ]
+    },
+    {
+      "names": [
+        "alcohol",
+        "ethanol"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "This broad term does not show the product, use, or source; check the full label and relevant certification."
+    },
+    {
+      "names": [
+        "wine",
+        "beer",
+        "rum",
+        "brandy"
+      ],
+      "status": {
+        "halal": "not_ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Named alcoholic drinks are flagged for the Halal profile; Kosher status needs product certification."
+    },
+    {
+      "names": [
+        "vanilla extract"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Alcohol may be used in the extract; the label does not show enough detail to confirm its source."
+    },
+    {
+      "names": [
+        "carmine",
+        "cochineal"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "not_ok"
+      },
+      "note": "Red dye from insects. Scholars differ on halal.",
+      "ecodes": [
+        "E120"
+      ]
+    },
+    {
+      "names": [
+        "shellac",
+        "confectioner's glaze"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Resin from lac insects.",
+      "ecodes": [
+        "E904"
+      ]
+    },
+    {
+      "names": [
+        "mono- and diglycerides",
+        "mono and diglycerides",
+        "monoglycerides",
+        "diglycerides"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source or production method may change this result; check with the manufacturer or relevant certifier.",
+      "ecodes": [
+        "E471"
+      ]
+    },
+    {
+      "names": [
+        "glycerol",
+        "glycerin",
+        "glycerine"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source or production method may change this result; check with the manufacturer or relevant certifier.",
+      "ecodes": [
+        "E422"
+      ]
+    },
+    {
+      "names": [
+        "l-cysteine"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source or production method may change this result; check with the manufacturer or relevant certifier.",
+      "ecodes": [
+        "E920"
+      ]
+    },
+    {
+      "names": [
+        "bone phosphate"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source or production method may change this result; check with the manufacturer or relevant certifier.",
+      "ecodes": [
+        "E542"
+      ]
+    },
+    {
+      "names": [
+        "disodium inosinate",
+        "disodium guanylate"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source or production method may change this result; check with the manufacturer or relevant certifier.",
+      "ecodes": [
+        "E631",
+        "E627"
+      ]
+    },
+    {
+      "names": [
+        "rennet"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Rennet may be animal, microbial, or plant-derived; the name alone does not identify its source."
+    },
+    {
+      "names": [
+        "animal rennet"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Animal source is stated, but species and religious slaughter or certification details are not."
+    },
+    {
+      "names": [
+        "milk",
+        "milk powder",
+        "butter",
+        "buttermilk",
+        "cream",
+        "ghee",
+        "milk fat",
+        "milk protein",
+        "milk solids",
+        "skimmed milk",
+        "yoghurt",
+        "yogurt"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy ingredient. Product certification and production are not checked."
+    },
+    {
+      "names": [
+        "whey",
+        "whey powder",
+        "casein",
+        "lactose"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Source or processing may matter for Halal and Kosher checks."
+    },
+    {
+      "names": [
+        "cheese",
+        "cheese powder"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "not_ok",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Rennet source and production details are not clear from this ingredient name."
+    },
+    {
+      "names": [
+        "egg",
+        "eggs",
+        "egg powder",
+        "egg white",
+        "egg yolk",
+        "albumin",
+        "lysozyme"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Egg ingredient; product certification is not checked."
+    },
+    {
+      "names": [
+        "honey"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Honey is not treated as vegan by this app."
+    },
+    {
+      "names": [
+        "mayonnaise"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "ok",
+        "vegan": "doubtful",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "May contain egg or other ingredients; check the full label and certification."
+    },
+    {
+      "names": [
+        "fish",
+        "anchovy",
+        "fish sauce",
+        "fish oil"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Some profiles depend on fish species or production details; this ingredient-level check cannot certify a product."
+    },
+    {
+      "names": [
+        "shrimp",
+        "prawn",
+        "crab",
+        "lobster"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "not_ok"
+      },
+      "note": "Halal interpretation can vary; this result follows the app's cautious ingredient-screening rule."
+    },
+    {
+      "names": [
+        "water",
+        "salt",
+        "sugar",
+        "wheat flour",
+        "flour",
+        "rice",
+        "corn",
+        "maize",
+        "cornstarch",
+        "corn starch",
+        "potato starch",
+        "starch",
+        "citric acid",
+        "ascorbic acid",
+        "vegetable oil",
+        "palm oil",
+        "sunflower oil",
+        "rapeseed oil",
+        "canola oil",
+        "olive oil",
+        "cocoa",
+        "cocoa butter",
+        "cocoa mass",
+        "yeast",
+        "baking soda",
+        "sodium bicarbonate",
+        "pectin",
+        "xanthan gum",
+        "guar gum",
+        "oats",
+        "oat",
+        "lemon juice",
+        "tomato",
+        "onion",
+        "garlic",
+        "spices",
+        "pepper",
+        "vinegar",
+        "chia seeds",
+        "chia seed",
+        "organic chia seeds",
+        "wine vinegar",
+        "apple cider vinegar",
+        "distilled vinegar",
+        "white vinegar"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "No conflict found in the ingredient names covered by this app; product certification is not checked."
+    },
+    {
+      "names": [
+        "lecithin",
+        "lecithins"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "ok",
+        "vegan": "doubtful",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Source or production method may change this result; check with the manufacturer or relevant certifier.",
+      "ecodes": [
+        "E322"
+      ]
+    },
+    {
+      "names": [
+        "apple"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "apple puree"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "apple juice"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "apple concentrate"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "pear"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "pear puree"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "peach"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "apricot"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "plum"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cherry"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "strawberry"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "blueberry"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "raspberry"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "blackberry"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cranberry"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "grape"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "grape juice"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "pineapple"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "mango"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "papaya"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "guava"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "kiwi"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "watermelon"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cantaloupe"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "honeydew"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "orange"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "orange juice"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "lemon"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "lime"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "grapefruit"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "mandarin"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "tangerine"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "banana"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "avocado"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "coconut"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "coconut milk"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "coconut cream"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "coconut flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "dates"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "date paste"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "raisins"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "sultanas"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "figs"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "prunes"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "dried apricot"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "dried cranberry"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "pomegranate"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "passion fruit"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "dragon fruit"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "lychee"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "jackfruit"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "persimmon"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "tomato paste"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "tomato puree"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "sun-dried tomato"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cucumber"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "zucchini"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "eggplant"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "bell pepper"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "red pepper"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "green pepper"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "jalapeno"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "chili pepper"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "green chili"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "red chili"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "potato"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "sweet potato"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "yam"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cassava"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "tapioca"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "arrowroot"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "beetroot"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "carrot"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "parsnip"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "turnip"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "radish"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "daikon"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "broccoli"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cauliflower"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cabbage"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "red cabbage"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "kale"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "spinach"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "lettuce"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "arugula"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "rocket"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "celery"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "celery root"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "fennel"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "leek"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "shallot"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "spring onion"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "scallion"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "chives"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "asparagus"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "artichoke"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "green beans"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "peas"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "snow peas"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "sugar snap peas"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "okra"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "pumpkin"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "butternut squash"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "acorn squash"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "mushroom"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "shiitake mushroom"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "oyster mushroom"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "portobello mushroom"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "sweet corn"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "corn kernels"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "bamboo shoots"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "water chestnut"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "olives"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "capers"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "pickles"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "sauerkraut"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "kimchi"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "seaweed"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "nori"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "wakame"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "kelp"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "spirulina"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "chlorella"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "parsley"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cilantro"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "coriander leaves"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "mint"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "basil"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "oregano"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "thyme"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "rosemary"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "sage"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "dill"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "bay leaf"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "turmeric"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "ginger"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cinnamon"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cumin"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "coriander seed"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "paprika"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "smoked paprika"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cardamom"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cloves"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "nutmeg"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "mace"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "saffron"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "black pepper"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "white pepper"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cayenne"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "mustard seed"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "fenugreek"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "fennel seed"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "caraway seed"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "celery seed"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "poppy seed"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "sesame seed"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "flaxseed"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "linseed"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "pumpkin seeds"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "sunflower seeds"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "hemp seeds"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "watermelon seeds"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "quinoa"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "buckwheat"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "millet"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "sorghum"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "teff"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "amaranth"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "barley"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "rice flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "brown rice flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "white rice flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "basmati rice"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "jasmine rice"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "wild rice"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "brown rice"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "red rice"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "black rice"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "bulgur"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "farro"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "freekeh"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "barley flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "rye flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "oat flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "corn flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "maize flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "chickpea flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "gram flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "besan"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "lentil flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "almond flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "coconut sugar"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "brown sugar"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "raw sugar"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cane sugar"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "beet sugar"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "molasses"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "maple syrup"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "agave syrup"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "date syrup"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "rice syrup"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "glucose syrup"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "dextrose"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "maltodextrin"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "inulin"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "chicory root fiber"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "psyllium husk"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "konjac glucomannan"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "potato flakes"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "nutritional yeast"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "brewer's yeast"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "baking powder"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cream of tartar"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "arrowroot powder"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "tapioca flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "tapioca starch"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "rice starch"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "modified starch"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "corn syrup"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "high fructose corn syrup"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "glucose"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "fructose"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "sucrose"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "maltose"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cocoa powder"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cacao nibs"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "dark chocolate"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "carob powder"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "vanilla bean"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "vanilla powder"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "almond extract"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "lemon zest"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "orange zest"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "lime zest"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "tamarind paste"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "miso paste"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "tomato sauce"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "pork belly"
+      ],
+      "status": {
+        "halal": "not_ok",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "not_ok"
+      },
+      "note": "Contains pork or pork-derived material."
+    },
+    {
+      "names": [
+        "pork shoulder"
+      ],
+      "status": {
+        "halal": "not_ok",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "not_ok"
+      },
+      "note": "Contains pork or pork-derived material."
+    },
+    {
+      "names": [
+        "pork loin"
+      ],
+      "status": {
+        "halal": "not_ok",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "not_ok"
+      },
+      "note": "Contains pork or pork-derived material."
+    },
+    {
+      "names": [
+        "pork ribs"
+      ],
+      "status": {
+        "halal": "not_ok",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "not_ok"
+      },
+      "note": "Contains pork or pork-derived material."
+    },
+    {
+      "names": [
+        "pork sausage"
+      ],
+      "status": {
+        "halal": "not_ok",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "not_ok"
+      },
+      "note": "Contains pork or pork-derived material."
+    },
+    {
+      "names": [
+        "pepperoni"
+      ],
+      "status": {
+        "halal": "not_ok",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "not_ok"
+      },
+      "note": "Contains pork or pork-derived material."
+    },
+    {
+      "names": [
+        "prosciutto"
+      ],
+      "status": {
+        "halal": "not_ok",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "not_ok"
+      },
+      "note": "Contains pork or pork-derived material."
+    },
+    {
+      "names": [
+        "pancetta"
+      ],
+      "status": {
+        "halal": "not_ok",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "not_ok"
+      },
+      "note": "Contains pork or pork-derived material."
+    },
+    {
+      "names": [
+        "salami"
+      ],
+      "status": {
+        "halal": "not_ok",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "not_ok"
+      },
+      "note": "Contains pork or pork-derived material."
+    },
+    {
+      "names": [
+        "chorizo"
+      ],
+      "status": {
+        "halal": "not_ok",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "not_ok"
+      },
+      "note": "Contains pork or pork-derived material."
+    },
+    {
+      "names": [
+        "lardons"
+      ],
+      "status": {
+        "halal": "not_ok",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "not_ok"
+      },
+      "note": "Contains pork or pork-derived material."
+    },
+    {
+      "names": [
+        "pork broth"
+      ],
+      "status": {
+        "halal": "not_ok",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "not_ok"
+      },
+      "note": "Contains pork or pork-derived material."
+    },
+    {
+      "names": [
+        "pork stock"
+      ],
+      "status": {
+        "halal": "not_ok",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "not_ok"
+      },
+      "note": "Contains pork or pork-derived material."
+    },
+    {
+      "names": [
+        "beef steak"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "not_ok",
+        "kosher": "doubtful"
+      },
+      "note": "Beef source and religious slaughter/certification are not confirmed."
+    },
+    {
+      "names": [
+        "ground beef"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "not_ok",
+        "kosher": "doubtful"
+      },
+      "note": "Beef source and religious slaughter/certification are not confirmed."
+    },
+    {
+      "names": [
+        "minced beef"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "not_ok",
+        "kosher": "doubtful"
+      },
+      "note": "Beef source and religious slaughter/certification are not confirmed."
+    },
+    {
+      "names": [
+        "brisket"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "not_ok",
+        "kosher": "doubtful"
+      },
+      "note": "Beef source and religious slaughter/certification are not confirmed."
+    },
+    {
+      "names": [
+        "ribeye"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "not_ok",
+        "kosher": "doubtful"
+      },
+      "note": "Beef source and religious slaughter/certification are not confirmed."
+    },
+    {
+      "names": [
+        "sirloin"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "not_ok",
+        "kosher": "doubtful"
+      },
+      "note": "Beef source and religious slaughter/certification are not confirmed."
+    },
+    {
+      "names": [
+        "beef ribs"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "not_ok",
+        "kosher": "doubtful"
+      },
+      "note": "Beef source and religious slaughter/certification are not confirmed."
+    },
+    {
+      "names": [
+        "beef broth"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "not_ok",
+        "kosher": "doubtful"
+      },
+      "note": "Beef source and religious slaughter/certification are not confirmed."
+    },
+    {
+      "names": [
+        "beef stock"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "not_ok",
+        "kosher": "doubtful"
+      },
+      "note": "Beef source and religious slaughter/certification are not confirmed."
+    },
+    {
+      "names": [
+        "beef gravy"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "not_ok",
+        "kosher": "doubtful"
+      },
+      "note": "Beef source and religious slaughter/certification are not confirmed."
+    },
+    {
+      "names": [
+        "beef collagen"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "not_ok",
+        "kosher": "doubtful"
+      },
+      "note": "Beef source and religious slaughter/certification are not confirmed."
+    },
+    {
+      "names": [
+        "chicken"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "chicken breast"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "chicken thigh"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "chicken wings"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "chicken liver"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "chicken fat"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "chicken broth"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "chicken stock"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "turkey"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "turkey breast"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "turkey thigh"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "duck"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "duck breast"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "duck fat"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "lamb"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "lamb chop"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "lamb shoulder"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "lamb mince"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "mutton"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "goat"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "goat meat"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "veal"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "venison"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "bison"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "rabbit"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "quail"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "pheasant"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "bone broth"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "meat extract"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "poultry extract"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "animal fat"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "fish gelatin"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "fish collagen"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "fish roe"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "caviar"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "squid"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "octopus"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "mussels"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "oysters"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "clams"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "scallops"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "whole milk"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "skim milk"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "semi-skimmed milk"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "evaporated milk"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "condensed milk"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "sweetened condensed milk"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "powdered milk"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "milk concentrate"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "cream cheese"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "mascarpone"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "ricotta"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "cottage cheese"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "mozzarella"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "cheddar"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "parmesan"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "feta"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "gouda"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "brie"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "camembert"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "blue cheese"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "processed cheese"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "sour cream"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "creme fraiche"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "kefir"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "buttermilk powder"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "milk protein concentrate"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "whey protein"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "whey protein isolate"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "whey protein concentrate"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "caseinates"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "sodium caseinate"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "calcium caseinate"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "milk permeate"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "milk sugar"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "milk solids nonfat"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "yogurt powder"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Dairy-derived ingredient; product certification and processing are not checked."
+    },
+    {
+      "names": [
+        "dried egg"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Egg-derived ingredient; product certification is not checked."
+    },
+    {
+      "names": [
+        "whole egg powder"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Egg-derived ingredient; product certification is not checked."
+    },
+    {
+      "names": [
+        "dried egg white"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Egg-derived ingredient; product certification is not checked."
+    },
+    {
+      "names": [
+        "dried egg yolk"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Egg-derived ingredient; product certification is not checked."
+    },
+    {
+      "names": [
+        "egg solids"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Egg-derived ingredient; product certification is not checked."
+    },
+    {
+      "names": [
+        "egg lecithin"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Egg-derived ingredient; product certification is not checked."
+    },
+    {
+      "names": [
+        "soy flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "soy milk"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "soy yogurt"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "soy protein isolate"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "soy protein concentrate"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "textured soy protein"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "textured vegetable protein"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "TVP"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "soybean oil"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "soy sprouts"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "tempeh"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "natto"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "tamari"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "almond butter"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "almond paste"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "almond meal"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cashew butter"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cashew paste"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "hazelnut butter"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "hazelnut paste"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "pistachio paste"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "walnut oil"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "pecan"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "pecan butter"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "brazil nuts"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "pine nuts"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "macadamia nuts"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "chestnuts"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "chestnut flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "tiger nuts"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "peanut oil"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "roasted peanuts"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "peanut flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "peanut protein"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "peanut paste"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "peanut meal"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "peanut extract"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "sesame paste"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "sesame flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "tahini"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "black sesame"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "white sesame"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "toasted sesame"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "sesame oil"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "wheat starch"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "vital wheat gluten"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "wheat protein"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "wheat germ"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "wheat bran"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "wheat malt"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "barley malt"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "barley malt extract"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "malted barley"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "malt flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "malt vinegar"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "rye flakes"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "rye bran"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "rye malt"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "spelt flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "einkorn"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "emmer"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "triticale"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "seitan"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "wheat berries"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "wheat semolina"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "crayfish"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "crawfish"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "langoustine"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "crab meat"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "lobster meat"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "shrimp paste"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "prawn paste"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "shrimp powder"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "crab extract"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "lobster extract"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "mussel extract"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "oyster extract"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "clam extract"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "scallop extract"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "abalone"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "sea snail"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "whelk"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "cockle"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "not_ok",
+        "vegan": "not_ok",
+        "hindu": "ok",
+        "kosher": "doubtful"
+      },
+      "note": "Animal or seafood source is identified, but sourcing and religious certification may vary. The app's Hindu profile only screens for beef."
+    },
+    {
+      "names": [
+        "mustard flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "mustard powder"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "mustard paste"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "mustard oil"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "celery powder"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "celery salt"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "celery seed extract"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "celeriac"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "lupin flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "lupin protein"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "sulphur dioxide"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "sulfur dioxide"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "sodium metabisulfite"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "potassium metabisulfite"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "sodium sulfite"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "potassium sulfite"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "bread crumbs"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "breadcrumbs"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "panko"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "bread flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "self-raising flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "self rising flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "pastry flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "cake flour"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "pizza dough"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "sourdough starter"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "pasta"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "noodles"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "ramen noodles"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "udon noodles"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "soba noodles"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "rice noodles"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "vermicelli"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "couscous"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "semolina pasta"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "pasta sheets"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "lasagna sheets"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "tortilla"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "flour tortilla"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "corn tortilla"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "pita bread"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "naan bread"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "chapati"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "roti"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "flatbread"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "burger bun"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "hot dog bun"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "bagel"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "croissant"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "brioche"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "pastry"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "puff pastry"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "filo pastry"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "cracker"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "wafer"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "biscuit"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "cookie"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "cake mix"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "pancake mix"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "waffle mix"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "muffin mix"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "brownie mix"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "granola"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "muesli"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "breakfast cereal"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "corn flakes"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "rice cereal"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "wheat flakes"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "bran flakes"
+      ],
+      "status": {
+        "halal": "doubtful",
+        "vegetarian": "doubtful",
+        "vegan": "doubtful",
+        "hindu": "doubtful",
+        "kosher": "doubtful"
+      },
+      "note": "Source, carrier, or manufacturing process can vary; verify with the manufacturer or relevant certifier."
+    },
+    {
+      "names": [
+        "instant oats"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "rolled oats"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "steel cut oats"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    },
+    {
+      "names": [
+        "potato chips"
+      ],
+      "status": {
+        "halal": "ok",
+        "vegetarian": "ok",
+        "vegan": "ok",
+        "hindu": "ok",
+        "kosher": "ok"
+      },
+      "note": "Ingredient-level screening only; cross-contact, processing aids, and product certification are not checked."
+    }
+  ],
+  "allergens": {
+    "milk": [
+      "blue cheese",
+      "brie",
+      "butter",
+      "buttermilk",
+      "calcium caseinate",
+      "camembert",
+      "casein",
+      "cheddar",
+      "cheese",
+      "condensed milk",
+      "cottage cheese",
+      "cream",
+      "cream cheese",
+      "creme fraiche",
+      "evaporated milk",
+      "feta",
+      "ghee",
+      "gouda",
+      "kefir",
+      "lactose",
+      "mascarpone",
+      "milk",
+      "milk concentrate",
+      "milk fat",
+      "milk permeate",
+      "milk powder",
+      "milk protein",
+      "milk protein concentrate",
+      "milk solids",
+      "mozzarella",
+      "parmesan",
+      "powdered milk",
+      "processed cheese",
+      "ricotta",
+      "skimmed milk",
+      "sodium caseinate",
+      "sour cream",
+      "sweetened condensed milk",
+      "whey",
+      "whey protein",
+      "whey protein concentrate",
+      "whey protein isolate",
+      "yoghurt",
+      "yogurt"
+    ],
+    "eggs": [
+      "albumin",
+      "dried egg",
+      "dried egg white",
+      "dried egg yolk",
+      "egg",
+      "egg lecithin",
+      "egg powder",
+      "egg solids",
+      "egg white",
+      "egg yolk",
+      "eggs",
+      "lysozyme",
+      "mayonnaise",
+      "whole egg powder"
+    ],
+    "peanuts": [
+      "arachis",
+      "groundnut",
+      "nut",
+      "nuts",
+      "peanut",
+      "peanut butter",
+      "peanut extract",
+      "peanut flour",
+      "peanut meal",
+      "peanut oil",
+      "peanut paste",
+      "peanut protein",
+      "peanuts",
+      "roasted peanuts"
+    ],
+    "tree nuts": [
+      "almond",
+      "almond butter",
+      "almond meal",
+      "almond paste",
+      "almonds",
+      "brazil nut",
+      "brazil nuts",
+      "cashew",
+      "cashew butter",
+      "cashew paste",
+      "chestnut flour",
+      "chestnuts",
+      "hazelnut",
+      "hazelnut butter",
+      "hazelnut paste",
+      "macadamia",
+      "macadamia nuts",
+      "marzipan",
+      "nut",
+      "nuts",
+      "pecan",
+      "pecan butter",
+      "pine nut",
+      "pine nuts",
+      "pistachio",
+      "pistachio paste",
+      "praline",
+      "tree nut",
+      "tree nuts",
+      "walnut"
+    ],
+    "gluten": [
+      "barley",
+      "barley malt",
+      "barley malt extract",
+      "couscous",
+      "durum",
+      "einkorn",
+      "emmer",
+      "gluten",
+      "kamut",
+      "malt",
+      "malt flour",
+      "malt vinegar",
+      "malted barley",
+      "rye",
+      "rye bran",
+      "rye flakes",
+      "rye malt",
+      "seitan",
+      "semolina",
+      "spelt",
+      "spelt flour",
+      "triticale",
+      "vital wheat gluten",
+      "wheat",
+      "wheat berries",
+      "wheat bran",
+      "wheat flour",
+      "wheat germ",
+      "wheat malt",
+      "wheat protein",
+      "wheat semolina",
+      "wheat starch"
+    ],
+    "soy": [
+      "edamame",
+      "natto",
+      "soy",
+      "soy flour",
+      "soy lecithin",
+      "soy milk",
+      "soy protein",
+      "soy protein concentrate",
+      "soy protein isolate",
+      "soy sauce",
+      "soy sprouts",
+      "soy yogurt",
+      "soya",
+      "soya lecithin",
+      "soybean",
+      "soybean oil",
+      "tamari",
+      "tempeh",
+      "textured soy protein",
+      "textured vegetable protein",
+      "tofu"
+    ],
+    "fish": [
+      "anchovies",
+      "anchovy",
+      "caviar",
+      "cod",
+      "fish",
+      "fish collagen",
+      "fish gelatin",
+      "fish oil",
+      "fish roe",
+      "fish sauce",
+      "fish seasoning",
+      "mackerel",
+      "salmon",
+      "sardine",
+      "sardines",
+      "tuna"
+    ],
+    "sesame": [
+      "black sesame",
+      "sesame",
+      "sesame flour",
+      "sesame oil",
+      "sesame paste",
+      "sesame seeds",
+      "tahini",
+      "toasted sesame",
+      "white sesame"
+    ],
+    "crustacean shellfish": [
+      "crab extract",
+      "crab meat",
+      "crawfish",
+      "crayfish",
+      "langoustine",
+      "lobster extract",
+      "lobster meat",
+      "prawn paste",
+      "shrimp paste",
+      "shrimp powder"
+    ],
+    "molluscs": [
+      "abalone",
+      "clam",
+      "clam extract",
+      "clams",
+      "cockle",
+      "mussel",
+      "mussel extract",
+      "mussels",
+      "octopus",
+      "oyster",
+      "oyster extract",
+      "oysters",
+      "scallop",
+      "scallop extract",
+      "scallops",
+      "sea snail",
+      "squid",
+      "whelk"
+    ],
+    "celery": [
+      "celeriac",
+      "celery powder",
+      "celery root",
+      "celery salt",
+      "celery seed extract"
+    ],
+    "mustard": [
+      "mustard flour",
+      "mustard oil",
+      "mustard paste",
+      "mustard powder",
+      "mustard seed"
+    ],
+    "lupin": [
+      "lupin flour",
+      "lupin protein"
+    ],
+    "sulphites": [
+      "potassium metabisulfite",
+      "potassium sulfite",
+      "sodium metabisulfite",
+      "sodium sulfite",
+      "sulfur dioxide",
+      "sulphur dioxide"
+    ]
+  },
+  "database_notes": {
+    "added_items": 500,
+    "scope": "500 additional common ingredient-label terms; not 500 branded food products.",
+    "verification": "Ingredient names and allergen groupings were cross-checked against official FDA, UK Food Standards Agency, and European Commission food-additive/allergen references. Individual manufacturer formulations and certification were not verified.",
+    "important_limit": "This is an ingredient screening aid, not a halal/kosher certification, medical allergy guarantee, or substitute for reading the full package label. Composite foods and ambiguous derivatives require manufacturer confirmation.",
+    "sources": [
+      "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
+      "https://www.gov.uk/understanding-food-labelling/allergen-labelling",
+      "https://food.ec.europa.eu/horizontal-topics/eu-food-safety-databases-and-other-online-services_en",
+      "https://www.efsa.europa.eu/en/topics/topic/food-additives"
+    ],
+    "hindu_profile": "Preserves the original app rule: the Hindu profile screens for beef only; it is not a statement about every Hindu person's dietary practice.",
+    "sulphites_note": "UK/EU allergen declaration thresholds and exemptions depend on the applicable jurisdiction; sulphites are commonly subject to declaration above 10 mg/kg or 10 mg/L."
+  }
+}

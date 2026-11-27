@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f3faf6">
+<meta name="description" content="Check food ingredients against your diet and allergies with clear, source-aware guidance.">
+<title>FoodLens AI</title>
+<link rel="icon" type="image/jpeg" href="assets/favicon.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=scanner-glass-4">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#top" aria-label="FoodLens AI home">
+    <span class="logo" aria-hidden="true">
+      <img src="assets/favicon.jpg" alt="">
+    </span>
+    <span class="brand-copy"><strong>FoodLens <em>AI</em></strong><small>Know Before You Eat</small></span>
+  </a>
+  <nav class="main-nav" aria-label="Main navigation">
+    <a href="#explore">Explore</a>
+    <a href="#popular">Ingredients</a>
+    <a href="#how-it-works">How it works</a>
+    <a href="#guides">Guides</a>
+  </nav>
+  <div class="header-actions">
+    <a class="header-search" href="#quick-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg><span>Search</span></a>
+    <a class="button button-primary header-cta" href="#scanner">Scan now <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
+<p class="mode-notice" id="mode-notice" role="status" aria-live="polite" hidden></p>
+
+<main id="top">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-glow hero-glow-left" aria-hidden="true"></div>
+    <div class="hero-glow hero-glow-right" aria-hidden="true"></div>
+    <div class="hero-content">
+      <img class="hero-brand-logo" src="assets/foodlens-logo.png" alt="FoodLens AI — Label Scanner">
+      <h1 id="hero-title">Know what's in your food<span class="headline-green"> before you eat.</span></h1>
+      <p class="hero-subtitle">Search, type, or scan a label. Get a clear ingredient check for your diet and allergies.</p>
+      <form class="hero-search" id="quick-search-form" role="search">
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg>
+        <label class="visually-hidden" for="quick-search">Food or ingredient to check</label>
+        <input id="quick-search" type="search" placeholder="Search a food, ingredient, or E-number…" autocomplete="off">
+        <button class="button button-soft" type="submit">Add to check <span aria-hidden="true">→</span></button>
+        <span class="search-divider" aria-hidden="true"></span>
+        <button class="camera-shortcut" id="camera-shortcut" type="button" aria-label="Scan a food label photo" title="Scan a label photo">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5h3l1.5-2h7l1.5 2h3v11H4z"/><circle cx="12" cy="13" r="3.2"/></svg>
+        </button>
+      </form>
+      <p class="search-hint" id="search-note" role="status">Try an ingredient name or E-number, like gelatin or E471.</p>
+      <div class="hero-badges" aria-label="FoodLens features">
+        <span><b aria-hidden="true">✓</b> Transparent checks</span>
+        <span><b aria-hidden="true">◇</b> Your diet, your choice</span>
+        <span><b aria-hidden="true">⌕</b> Ingredient by ingredient</span>
+      </div>
+    </div>
+    <span class="float-tag float-tag-one" aria-hidden="true"><span>✓</span> Clear guidance</span>
+    <span class="float-tag float-tag-two" aria-hidden="true"><span>?</span> Source can matter</span>
+  </section>
+  <div class="dashboard-landing">
+  <section class="explore-panel" id="explore" aria-label="Explore FoodLens">
+    <div class="dashboard-intro">
+      <span class="eyebrow"><span class="eyebrow-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 4C11 4 5 8 5 14c0 3 2 5 5 5 6 0 10-6 10-15Z"/><path d="M4 21c4-6 8-10 14-14"/></svg></span> Ingredient Checker</span>
+      <h2>Get Started with <span class="headline-green">FoodLens AI</span></h2>
+      <p>Choose an option below to scan, explore, or learn about ingredients</p>
+      <div class="dashboard-divider" aria-hidden="true"><span>✦</span></div>
+    </div>
+    <div class="feature-grid">
+      <a class="feature-card feature-green" href="#scanner">
+        <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3M7 12h10"/></svg></span>
+        <span class="feature-copy"><strong>Scan a product label</strong><small>Upload a photo and check the ingredients</small></span><span class="feature-arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="feature-card feature-mint" href="#popular">
+        <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 3 2.4 5 5.6.8-4 3.9.9 5.5-4.9-2.6-5 2.6.9-5.5-4-3.9 5.6-.8z"/></svg></span>
+        <span class="feature-copy"><strong>Explore ingredients</strong><small>Learn what common additives mean</small></span><span class="feature-arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="feature-card feature-gold" href="#diet">
+        <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 4.5 6v5c0 5.1 3.2 8.3 7.5 10 4.3-1.7 7.5-4.9 7.5-10V6z"/><path d="m9 12 2 2 4-4"/></svg></span>
+        <span class="feature-copy"><strong>Choose your diet</strong><small>Halal, vegetarian, vegan, and more</small></span><span class="feature-arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="feature-card feature-lilac" href="#allergies">
+        <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3a8 8 0 0 0-4 14.9V21h8v-3.1A8 8 0 0 0 12 3Z"/><path d="M9 10c1.5 0 1.5 2 3 2s1.5-2 3-2M9 15h6"/></svg></span>
+        <span class="feature-copy"><strong>Check allergens</strong><small>Flag selected allergens in a label</small></span><span class="feature-arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="feature-card feature-peach" href="#how-it-works">
+        <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 4.5 6v5c0 5.1 3.2 8.3 7.5 10 4.3-1.7 7.5-4.9 7.5-10V6z"/><path d="M12 8v4l2.5 1.5"/></svg></span>
+        <span class="feature-copy"><strong>Understand the result</strong><small>See why an ingredient needs attention</small></span><span class="feature-arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="feature-card feature-blue" href="#guides">
+        <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21z"/><path d="M4 5.5v13A2.5 2.5 0 0 1 6.5 16H20M8 7h8M8 10h7"/></svg></span>
+        <span class="feature-copy"><strong>Read the guides</strong><small>Get to know labels and food codes</small></span><span class="feature-arrow" aria-hidden="true">→</span>
+      </a>
+    </div>
+
+    <section class="popular" id="popular" aria-labelledby="popular-title">
+      <div class="section-bar">
+        <h2 id="popular-title"><span class="trend-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 3h6M10 3v6l-5 10a2 2 0 0 0 1.8 3h10.4A2 2 0 0 0 19 19L14 9V3"/><path d="M8 15h8M7 18h10"/></svg></span><span class="sample-heading-copy"><small>QUICK START</small><strong>Try a sample ingredient</strong></span></h2>
+        <a href="#scanner">Check your own label <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="sample-grid">
+        <button class="sample-item" type="button" data-ingredients="Gelatin"><span class="sample-symbol">G</span><span><strong>Gelatin</strong><small>Ingredient check</small></span><span class="sample-arrow" aria-hidden="true">↗</span></button>
+        <button class="sample-item" type="button" data-ingredients="E471"><span class="sample-symbol">E</span><span><strong>E471</strong><small>Food additive</small></span><span class="sample-arrow" aria-hidden="true">↗</span></button>
+        <button class="sample-item" type="button" data-ingredients="Lecithin"><span class="sample-symbol">L</span><span><strong>Lecithin</strong><small>Ingredient check</small></span><span class="sample-arrow" aria-hidden="true">↗</span></button>
+        <button class="sample-item" type="button" data-ingredients="Glycerin"><span class="sample-symbol">G</span><span><strong>Glycerin</strong><small>Ingredient check</small></span><span class="sample-arrow" aria-hidden="true">↗</span></button>
+        <button class="sample-item" type="button" data-ingredients="Whey powder"><span class="sample-symbol">W</span><span><strong>Whey powder</strong><small>Ingredient check</small></span><span class="sample-arrow" aria-hidden="true">↗</span></button>
+        <button class="sample-item" type="button" data-ingredients="Mono- and diglycerides"><span class="sample-symbol">M</span><span><strong>Mono- and diglycerides</strong><small>Ingredient check</small></span><span class="sample-arrow" aria-hidden="true">↗</span></button>
+      </div>
+    </section>
+  </section>
+
+    <div class="dashboard-cta-row">
+      <a class="button button-primary dashboard-cta" href="#scanner"><span aria-hidden="true">✧</span> Personalized food check <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+  <section class="scanner-section" id="scanner" aria-labelledby="scanner-title">
+    <div class="section-heading">
+      <span class="eyebrow"><span class="eyebrow-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2.8 4.5 6v5c0 5.2 3 8.6 7.5 10.2 4.5-1.6 7.5-5 7.5-10.2V6z"/><path d="m9 12 2 2 4-4"/></svg></span> FoodLens AI</span>
+      <h2 id="scanner-title">Let's check <span class="headline-green">your label.</span></h2>
+      <p>Choose what matters to you, then scan a photo or enter the ingredients.</p>
+    </div>
+    <div class="scan-card">
+      <div class="tabs" role="tablist" aria-label="Choose how to add a food label">
+        <button class="tab" role="tab" id="t-photo" aria-selected="true" aria-controls="p-photo"><svg class="tab-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h3l1.5-2h8L18 7h2v12H4z"/><circle cx="12" cy="13" r="3.2"/></svg>Scan a photo</button>
+        <button class="tab" role="tab" id="t-text" aria-selected="false" aria-controls="p-text"><svg class="tab-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5"/></svg>Type ingredients</button>
+      </div>
+      <div class="pane" id="p-photo" role="tabpanel" aria-labelledby="t-photo">
+        <label class="drop" id="drop-zone" for="file">
+          <span class="upload-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M9 11h8M9 11v8M39 11h-8M39 11v8M9 37h8M9 37v-8M39 37h-8M39 37v-8"/><path d="M18 8h12l2 4h5v25H11V12h5z"/><path d="M18 20h12M18 25h12M18 30h8"/></svg></span>
+          <span class="drop-copy"><strong>Upload a photo of the label</strong><small id="fname">JPG, PNG or WebP · max 4 MB</small></span>
+          <span class="upload-link">Choose photo</span>
+          <span class="drop-aside"><span aria-hidden="true">↙</span> Or drag &amp; drop your photo here</span>
+          <input type="file" id="file" accept="image/*" capture="environment" hidden>
+        </label>
+        <div class="upload-or" aria-hidden="true"><span>OR</span></div>
+        <details class="preview-details" id="preview-details">
+          <summary><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9" r="1.5"/><path d="m21 15-5-5L5 20"/></svg>Preview of your label photo</summary>
+          <p class="preview-empty" id="preview-empty">Your selected photo preview will appear here.</p>
+          <img class="preview" id="preview" alt="Preview of your selected label photo" hidden>
+        </details>
+      </div>
+      <div class="pane" id="p-text" role="tabpanel" aria-labelledby="t-text" hidden>
+        <label class="visually-hidden" for="ing">Ingredients list</label>
+        <textarea id="ing" placeholder="Paste the ingredients from the package…"></textarea>
+      </div>
+
+      <div class="scan-preferences">
+        <div class="choice-group" id="diet">
+          <div class="choice-heading"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4C11 4 5 8 5 14c0 3 2 5 5 5 6 0 10-6 10-15Z"/><path d="M4 21c4-6 8-10 14-14"/></svg><div><p class="lbl" id="dl">Your diet or belief</p><small>Choose the profile you follow</small></div></div>
+          <div class="chips" role="group" aria-labelledby="dl" id="diet-options"></div>
+        </div>
+        <div class="choice-group" id="allergies">
+          <div class="choice-heading"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 7 3v5c0 4.8-2.8 8-7 10-4.2-2-7-5.2-7-10V6z"/><path d="m9 12 2 2 4-4"/></svg><div><p class="lbl" id="al">Allergies <span>(optional)</span></p><small>Select anything you need to avoid</small></div></div>
+          <div class="chips" role="group" aria-labelledby="al" id="allergy"></div>
+        </div>
+      </div>
+      <button class="button button-primary check-button" type="button" id="go"><span class="button-label">Check this label</span><span class="button-arrow" aria-hidden="true">→</span><span class="button-spinner" aria-hidden="true"></span></button>
+      <p class="note" id="note" role="status" aria-live="polite"></p>
+    </div>
+    <dialog class="processing-dialog" id="processing-dialog" aria-labelledby="processing-title">
+      <div class="processing-header">
+        <h2 id="processing-title">Processing your photo</h2>
+        <button class="processing-close" id="processing-close" type="button" aria-label="Hide processing view">×</button>
+      </div>
+      <div class="processing-panel">
+        <div class="processing-spinner-box" aria-hidden="true"><span class="processing-spinner"></span></div>
+        <p class="processing-state" id="processing-state" aria-live="polite">Reading the label and checking its ingredients…</p>
+        <div class="processing-track" role="progressbar" aria-label="FoodLens is processing your check" aria-valuetext="In progress"><span class="processing-indicator"></span></div>
+        <p class="processing-percent" aria-hidden="true">Working…</p>
+      </div>
+      <p class="processing-footnote">FoodLens is checking your label. This may take a little while.</p>
+    </dialog>
+    <p class="privacy-note"><span aria-hidden="true">◇</span> Your check is personal. No account needed.</p>
+
+    <section class="result" id="result" tabindex="-1" aria-labelledby="result-title" hidden></section>
+
+    <section class="recent" id="recent" aria-labelledby="recent-title" hidden>
+      <div class="section-bar"><h2 id="recent-title">Recent checks <small>(saved on this device only)</small></h2><button class="link-button" type="button" id="recent-clear">Clear</button></div>
+      <ul class="recent-list" id="recent-list"></ul>
+    </section>
+  </section>
+
+  <section class="why-section" id="how-it-works" aria-labelledby="why-title">
+    <div class="section-heading why-heading">
+      <span class="eyebrow"><span class="eyebrow-icon" aria-hidden="true">?</span> Why FoodLens exists</span>
+      <h2 id="why-title">Modern food is complex.<br><span>Understanding it shouldn't be.</span></h2>
+      <p>Labels use codes, short names, and ingredients that can come from different sources. FoodLens helps you spot what may need a closer look.</p>
+    </div>
+    <div class="why-grid">
+      <article class="why-card why-gold"><span class="why-icon" aria-hidden="true">⌕</span><h3>Ingredients can have different sources</h3><p>Some ingredients, like gelatin or glycerin, may need more information about how they were made.</p></article>
+      <article class="why-card why-purple"><span class="why-icon" aria-hidden="true">▤</span><h3>Labels aren't always easy to read</h3><p>E-numbers, technical names, and tiny print can make it hard to know what is in a product.</p></article>
+      <article class="why-card why-blue"><span class="why-icon" aria-hidden="true">i</span><h3>One answer doesn't fit everyone</h3><p>Check a label against your selected diet and allergies, and review the ingredients behind the result.</p></article>
+    </div>
+    <aside class="method-banner">
+      <span class="method-shield" aria-hidden="true">✓</span>
+      <div><h3>Clear checks, with the reasoning shown</h3><p>FoodLens uses ingredient rules for known items and labels AI estimates for ingredients the rules can't settle. When a source is unclear, we'll show that uncertainty.</p><a href="#scanner">Try an ingredient check <span aria-hidden="true">→</span></a></div>
+    </aside>
+  </section>
+
+  <section class="guides-section" id="guides" aria-labelledby="guides-title">
+    <div class="guides-intro"><span class="eyebrow"><span class="eyebrow-icon" aria-hidden="true">▣</span> Guides &amp; learning</span><h2 id="guides-title">Get to know your food label.</h2><p>Simple starting points for reading ingredient lists and using FoodLens.</p></div>
+    <div class="guide-list">
+      <a href="#how-it-works"><span class="guide-number">01</span><span><strong>How FoodLens checks ingredients</strong><small>Learn how a check is put together</small></span><span aria-hidden="true">→</span></a>
+      <a href="#popular"><span class="guide-number">02</span><span><strong>Getting familiar with food codes</strong><small>Start with common E-numbers</small></span><span aria-hidden="true">→</span></a>
+      <a href="#scanner"><span class="guide-number">03</span><span><strong>Make a personal food check</strong><small>Pick a diet and note your allergies</small></span><span aria-hidden="true">→</span></a>
+    </div>
+  </section>
+
+<section class="faq-section" id="faq" aria-labelledby="faq-title">
+  <div class="guides-intro"><span class="eyebrow"><span class="eyebrow-icon" aria-hidden="true">?</span> Questions</span><h2 id="faq-title">Good to know.</h2><p>Short answers about FoodLens, your privacy and how far you can trust a result.</p></div>
+  <div class="faq-list">
+    <details><summary>Is FoodLens free to use?</summary><p>Yes. You don't need an account to check a label.</p></details>
+    <details><summary>Does FoodLens decide if a food is halal, kosher or safe for allergies?</summary><p>FoodLens applies written rules to known ingredients. For items the rules cannot settle, AI can search the web and give a screening estimate with links to sources. It is not a personal religious ruling or product certification. A check can miss text or ingredients, and "no match found" never proves a product is allergen-free. Check official certification and the manufacturer, and ask a doctor or allergist about serious allergies.</p></details>
+    <details><summary>What does "needs a closer look" mean?</summary><p>AI may search for a general ingredient answer, but it cannot see a source the label does not name. Source-dependent items stay marked "Check" so you can verify them with the manufacturer or certifier.</p></details>
+    <details><summary>What about "may contain" warnings?</summary><p>They are shown separately from the ingredients. A "may contain" warning means traces could be present from shared equipment, so take it seriously if you have an allergy.</p></details>
+    <details><summary>Does it work with food trucks or street food?</summary><p>Only when you have an ingredient list to type in or a label to photograph. Without a list, FoodLens has nothing to check, so ask the seller.</p></details>
+    <details><summary>Can I use it anywhere in the world?</summary><p>Yes. Labels in other languages are read and translated to English, but translation can be wrong, so double-check unfamiliar words.</p></details>
+    <details><summary>How do I report a wrong result?</summary><p>Treat the result as a starting point and trust the package and the manufacturer over FoodLens. If a rule looks wrong, tell the project team so it can be fixed.</p></details>
+    <details id="privacy"><summary>Privacy &amp; terms</summary><p><strong>Your photo and text.</strong> When you scan a photo, the image is sent to Google's Gemini AI to read the label. If an ingredient is unknown or marked "Check", that ingredient name and selected profile are sent to Gemini; Google Search may be used to find supporting sources. We don't save your photos, ingredient lists or results on our servers, and there are no accounts. "Recent checks" are kept only in your own browser and you can clear them anytime.</p><p><strong>Terms.</strong> FoodLens is provided as is, for information only. AI estimates and web sources are not certification, medical advice, dietary advice, or religious rulings. You are responsible for checking labels and certifications before you eat.</p></details>
+  </div>
+</section>
+
+<section class="photo-guides" aria-labelledby="photo-guides-title">
+  <div class="photo-guides-heading"><span class="eyebrow"><span class="eyebrow-icon" aria-hidden="true">✳</span> Explore food</span><h2 id="photo-guides-title">A little more context for your next check.</h2><p>Start with common ingredients, everyday foods, and the labels we meet while shopping.</p></div>
+  <div class="photo-grid">
+    <a class="photo-card" href="#popular">
+      <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&amp;fit=crop&amp;w=900&amp;q=82" alt="A colorful meal with fresh vegetables and ingredients" loading="lazy">
+      <span class="photo-card-content"><small>Ingredient basics</small><strong>Get to know what's in a label</strong><span>Explore ingredients <b aria-hidden="true">→</b></span></span>
+    </a>
+    <a class="photo-card" href="#scanner">
+      <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&amp;fit=crop&amp;w=900&amp;q=82" alt="A fresh salad made with colorful vegetables" loading="lazy">
+      <span class="photo-card-content"><small>Food shopping</small><strong>Check the foods you bring home</strong><span>Start a food check <b aria-hidden="true">→</b></span></span>
+    </a>
+    <a class="photo-card" href="#how-it-works">
+      <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&amp;fit=crop&amp;w=900&amp;q=82" alt="Freshly baked loaves of bread" loading="lazy">
+      <span class="photo-card-content"><small>Everyday foods</small><strong>Get familiar with bakery labels</strong><span>How checks work <b aria-hidden="true">→</b></span></span>
+    </a>
+    <a class="photo-card" href="#how-it-works">
+      <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&amp;fit=crop&amp;w=900&amp;q=82" alt="Food cooking on a grill" loading="lazy">
+      <span class="photo-card-content"><small>Ingredient sourcing</small><strong>Some ingredients need more context</strong><span>See our approach <b aria-hidden="true">→</b></span></span>
+    </a>
+  </div>
+  <p class="photo-credit">Photos hosted by <a href="https://unsplash.com/license" target="_blank" rel="noreferrer">Unsplash</a>.</p>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-top"><a class="brand footer-brand" href="#top" aria-label="FoodLens AI home"><span class="logo" aria-hidden="true"><img src="assets/favicon.jpg" alt=""></span><span class="brand-copy"><strong>FoodLens <em>AI</em></strong><small>Know Before You Eat</small></span></a><p>Food label guidance for everyday choices.</p><a class="footer-cta" href="#scanner">Check a label <span aria-hidden="true">↑</span></a></div>
+  <div class="footer-bottom"><span>FoodLens AI gives informational guidance, not medical advice or religious rulings. <a href="#faq">FAQ</a> · <a href="#privacy">Privacy &amp; terms</a></span><a href="#top">Back to top ↑</a></div>
+ </footer>
+
+<script src="js/content-protection.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
+

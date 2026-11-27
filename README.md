@@ -1,5 +1,3 @@
-# FoodLens AI
-
 <div align="center">
 
 <img src="frontend/assets/foodlens-logo.png" alt="FoodLens AI Logo" width="145">
@@ -78,50 +76,7 @@ The overall result follows the strictest ingredient verdict.
 ## System Architecture
 
 FoodLens AI follows a hybrid architecture combining deterministic ingredient rules with AI-assisted recognition and estimation.
-
-```text
-                 USER
-                  |
-          +-------+-------+
-          |               |
-       Camera          Manual Input
-          |               |
-          v               |
-     Gemini Vision         |
-          |               |
-          +-------+-------+
-                  |
-                  v
-        Structured Ingredient Data
-                  |
-                  v
-          Flask Backend
-                  |
-                  v
-          Ingredient Engine
-                  |
-           +------+------+
-           |             |
-        Known        Unresolved
-       Ingredients   Ingredients
-           |             |
-       Rule Engine   Gemini + Search
-           |             |
-           +------+------+
-                  |
-                  v
-          Result Processing
-                  |
-        +---------+---------+
-        |         |         |
-      Verdict  Allergens  Nutrition
-        |         |         |
-        +---------+---------+
-                  |
-                  v
-             FRONTEND
-```
-
+![How FoodLens AI Works](frontend/assets/foodlens-architecture.gif)
 ### Processing Pipeline
 
 **1. Input Processing**
@@ -356,6 +311,7 @@ foodlens-ai/
 │   ├── js/
 │   │   └── app.js
 │   └── assets/
+│       └── foodlens-architecture.gif
 │
 ├── tests/
 │

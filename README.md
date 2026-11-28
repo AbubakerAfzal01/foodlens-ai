@@ -76,7 +76,7 @@ The overall result follows the strictest ingredient verdict.
 ## System Architecture
 
 FoodLens AI follows a hybrid architecture combining deterministic ingredient rules with AI-assisted recognition and estimation.
-![How FoodLens AI Works](frontend/assets/foodlens-architecture.gif)
+![How FoodLens AI Works](frontend/assets/foodlens-architecture (1).gif)
 ### Processing Pipeline
 
 **1. Input Processing**

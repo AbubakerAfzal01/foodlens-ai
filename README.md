@@ -11,7 +11,7 @@
 Scan food ingredient labels, check dietary compatibility, identify potential allergens, and understand every ingredient with AI-assisted explanations.
 
 [![Live Demo](https://img.shields.io/badge/Explore%20Live%20Demo-16a34a?style=for-the-badge)](https://foodlens-ai-lemon.vercel.app)
-[![Demo Video](https://img.shields.io/badge/Watch%20Demo-YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)]([YOUTUBE_URL])
+[![Demo Video](https://img.shields.io/badge/Watch%20Demo-YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/a3OglqeQiFo)
 
 <br>
 
@@ -44,6 +44,12 @@ Ingredients such as gelatin, glycerin, E471, and mono- and diglycerides may have
 It combines AI-powered label recognition with a transparent ingredient rule engine to help users understand what's in their food.
 
 Instead of simply returning a Yes or No, FoodLens explains individual ingredient results and highlights potential concerns.
+
+## Demo Video
+
+☞ Watch the demo: https://youtu.be/a3OglqeQiFo
+
+☞ Devpost project: https://devpost.com/software/foodlens-ai-8pt0oe
 
 ## ✨ Features
 
